@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Velocity</title>
+    <style>
+        body {
+            background-color: rgb(41, 40, 40);
+            color: white;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.5em;
+            margin: 0;
+            padding: 0;
+           
+        }
+
+        .name {
+            transition: all 4s ease;
+            /* display: none; */
+            opacity: 0;
+            font-size: 10rem;
+            font-weight: bold;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 1;
+        }
+/* 
+        .name:hover {
+            opacity: 1;
+        } */
+
+    </style>
+</head>
+<body>
+    <div class="cont">
+    <div class="name">Velocity.</div>
+</div>
+    <script>
+let x = setTimeout(function() {
+        document.querySelector('.name').style.opacity = 1;
+}, 1000);
+    </script>
+</body>
+</html>

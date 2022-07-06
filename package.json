@@ -1,0 +1,21 @@
+{
+  "name": "velocity",
+  "version": "1.0.0",
+  "description": "Speed things up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [
+    "roblox"
+  ],
+  "author": "amukh1",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^19.0.7"
+  },
+  "dependencies": {
+    "shell": "^0.9.4"
+  }
+}
